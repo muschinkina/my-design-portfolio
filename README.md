@@ -6,4 +6,4 @@
 
 - `index.html` — текст страницы
 - `styles.css` — стили 
-- `images/` — картинки
+- `images` — картинки
