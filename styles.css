@@ -57,3 +57,18 @@ blockquote {
     border-left: 3px solid #000000;
     font-style: italic;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #111111;
+        color: #eeeeee;
+    }
+
+    .gray {
+        color: #ffffff66;
+    }
+
+    blockquote {
+        border-left-color: #eeeeee;
+    }
+}
