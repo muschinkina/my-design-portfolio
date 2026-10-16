@@ -1,14 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .sidebar {
-    position: absolute;
-    top: 70px;
-    left: 40px;
-    width: 220px;
-    font-size: 16px;
-    line-height: 22px;
+    position: fixed;
+    top: 50px;
+    left: 20px;
+    width: 280px;
+    font-size: 15px;
+    line-height: 20px;
+    opacity: 0.2;
+    transition: opacity 0.2s;
+}
+
+.sidebar:hover {
+    opacity: 1;
 }
 
 .sidebar-title {
-    margin-bottom: 16px;
     font-weight: bold;
 }
 
@@ -17,17 +26,12 @@
     list-style: none;
 }
 
-.sidebar li {
-    margin-bottom: 10px;
-}
-
 .sidebar ol ol {
-    margin-top: 10px;
-    padding-left: 16px;
+    padding-left: 20px;
 }
 
 .sidebar a {
-    color: #00000099;
+    color: #808080;
     text-decoration: none;
 }
 
@@ -36,19 +40,13 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    .sidebar a {
-        color: #ffffff99;
-    }
-
     .sidebar a:hover {
         color: #ffffff;
     }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1400px) {
     .sidebar {
-        position: static;
-        width: auto;
-        margin: 40px 15% 0 15%;
+        display: none;
     }
 }
