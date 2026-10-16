@@ -34,6 +34,14 @@ p {
     color: #00000066;
 }
 
+
+
+img {
+    display: block;
+    width: 140%;
+    margin: 78px 0 90px -20%;
+}
+
 ul {
      margin: 0 0 30px 0;
     padding-left: 30px;
@@ -43,3 +51,9 @@ li {
     margin-bottom: 17px;
 }
 
+blockquote {
+   margin: 30px 0 30px -20px;
+    padding-left: 17px;
+    border-left: 3px solid #000000;
+    font-style: italic;
+}
