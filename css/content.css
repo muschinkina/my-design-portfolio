@@ -1,58 +1,59 @@
 body {
-    width: 70%;
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 70px 0 40px 0;
-    font-family: Arial, sans-serif;
+    font-family: 'PT Sans', Arial, sans-serif;
     font-size: 22px;
     line-height: 1.5;
 }
 
-h1 {
-    font-size: 42px;
-    line-height: 45px;
-    margin: 0 0 36px 0;
+.content {
+    width: 70%;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 70px 0 40px 0;
 }
 
-h2 {
+.content h1 {
+    font-size: 42px;
+    line-height: 45px;
+    margin-bottom: 36px;
+}
+
+.content h2 {
     font-size: 34px;
     line-height: 36px;
     margin: 44px 0 20px 0;
 }
 
-h3 {
+.content h3 {
     font-size: 30px;
     line-height: 34px;
     margin: 36px 0 8px 0;
 }
 
-p {
-    margin: 0 0 30px 0;
+.content p {
+    margin-bottom: 30px;
 }
 
-.gray {
+.content .gray {
     color: #00000066;
 }
 
-
-
-img {
+.content img {
     display: block;
     width: 140%;
     margin: 78px 0 90px -20%;
 }
 
-ul {
-     margin: 0 0 30px 0;
+.content ul {
+    margin-bottom: 30px;
     padding-left: 30px;
 }
 
-li {
+.content li {
     margin-bottom: 17px;
 }
 
-blockquote {
-   margin: 30px 0 30px -20px;
+.content blockquote {
+    margin: 30px 0 30px -20px;
     padding-left: 17px;
     border-left: 3px solid #000000;
     font-style: italic;
@@ -64,11 +65,11 @@ blockquote {
         color: #eeeeee;
     }
 
-    .gray {
+    .content .gray {
         color: #ffffff66;
     }
 
-    blockquote {
+    .content blockquote {
         border-left-color: #eeeeee;
     }
 }

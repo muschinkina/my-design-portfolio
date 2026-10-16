@@ -1,0 +1,52 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.sidebar {
+    position: fixed;
+    top: 50px;
+    left: 20px;
+    width: 280px;
+    font-size: 15px;
+    line-height: 20px;
+    opacity: 0.2;
+    transition: opacity 0.2s;
+}
+
+.sidebar:hover {
+    opacity: 1;
+}
+
+.sidebar-title {
+    font-weight: bold;
+}
+
+.sidebar ol {
+    padding-left: 0;
+    list-style: none;
+}
+
+.sidebar ol ol {
+    padding-left: 20px;
+}
+
+.sidebar a {
+    color: #808080;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+    .sidebar a:hover {
+        color: #ffffff;
+    }
+}
+
+@media (max-width: 1400px) {
+    .sidebar {
+        display: none;
+    }
+}
